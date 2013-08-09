@@ -1,0 +1,10 @@
+<h1>Listing users</h1>
+<button id="user-count">Count Users</button>
+<div id="form"></div>
+<table id="users">
+  <%= render 'users' %>
+</table>
+
+<br />
+
+<%= link_to 'New User', new_user_path, remote: true %>
